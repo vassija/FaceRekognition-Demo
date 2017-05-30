@@ -27,6 +27,10 @@ export AWS_SECRET=<your IAM secret here>
 Once that is done, you can install all dependencies by typing:
 
 ```
+gem install bundle
+```
+
+```
 bundle install
 ```
 
