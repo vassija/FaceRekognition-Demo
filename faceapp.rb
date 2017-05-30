@@ -16,6 +16,9 @@ Aws.config.update({
 # Default collection name
 FACE_COLLECTION = "faceapp_test"
 
+#Set port Number
+set :port, 4567
+
 # The routes
 get '/' do
   # Show the main index page
